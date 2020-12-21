@@ -1,5 +1,6 @@
 <template>
 <div class="container-master">
+  <h1>Nuestros Servicios</h1>
 <div class="row justify-content-center cards-services">
     <div class="card m-3 shadow card-s" style="width: 21rem;" v-for="(service,index) of dataService" :key="index" v-if="service.estado===1">
         <div class="c-top">
@@ -38,7 +39,7 @@ export default {
           this.$router.push(`/service/${idS}`);
       }
   },
-  mounted(){
+  created(){
       this.getDataServices();
   }
 };
@@ -50,6 +51,11 @@ export default {
   width: 100%;
   margin: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-master h1{
+  color: #f7f7f7;
+  font-size: 6rem;
 }
 .cards-services{
   width: 90%;

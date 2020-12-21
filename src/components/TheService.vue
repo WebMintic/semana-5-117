@@ -1,8 +1,5 @@
 <template>
     <div class="">
-        <div class="image-service">
-            <img :src="dataService.image" alt="" srcset="">
-        </div>
         <div class="service-header">
             <h1>{{dataService.nombre}}</h1>
             <h2>{{dataService.descripcion}}</h2>

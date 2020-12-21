@@ -1,6 +1,6 @@
 <template>
   <div class="cruds">
-    <h1>aiosdaoskdnaslndkalsndaslnkdlaksndlaksnd</h1>
+    <page-header-login></page-header-login>
     <the-cruds></the-cruds>
   </div>
 </template>
@@ -8,10 +8,12 @@
 <script>
 
 import TheCruds from '../components/TheCruds.vue'
+import PageHeaderLogin from '../components/PageHeaderLogin.vue'
 export default {
   name: 'cruds',
   components: {
-    TheCruds
+    TheCruds,
+    PageHeaderLogin
   }
 }
 </script>

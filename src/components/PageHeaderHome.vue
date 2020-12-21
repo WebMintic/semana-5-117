@@ -1,7 +1,7 @@
 <template>
   <div id="MenuHome">
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" @click.prevent="GoToHome">
         <img
           src="https://png.pngtree.com/png-clipart/20190603/original/pngtree-blue-earth-science-and-technology-png-image_572223.jpg"
           width="30"
@@ -15,7 +15,7 @@
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <form class="d-flex">
-          <button class="btn btn-primary btn-lg" type="submit" style="100px">
+          <button class="btn btn-primary btn-lg" type="submit" style="100px" @click.prevent="GoToLogin">
             sig In
           </button>
         </form>
@@ -40,7 +40,7 @@
         <div class="carousel-item active bg-light">
           <img
             class="d-block w-100 cortar"
-            src="https://media-exp1.licdn.com/dms/image/C511BAQFh8RSR4MDdjQ/company-background_10000/0/1582662186738?e=1608573600&v=beta&t=80-ZkFXuZAueTkHFpzIqlOrhlQovU31pCv9rrklusUo"
+            src="https://image.freepik.com/foto-gratis/cooperacion-analista-grafico-profesional-papel-economia_1418-47.jpg"
             alt="Responsive image"
           />
           <div class="carousel-caption d-none d-md-block">
@@ -97,7 +97,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name:'PageHeaderHome',
+  data(){
+    return{
+      
+    }
+  },
+  methods:{
+    GoToLogin(){
+      this.$router.push('/login')
+    },
+    GoToHome(){
+      this.$router.push('/')
+    }
+  }
+};
 </script>
 
 <style scoped>

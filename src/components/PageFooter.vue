@@ -15,9 +15,10 @@
           </div>
           <hr class="clearfix w-100 d-md-none pb-3" />
           <div class="col-md-6 mt-md-0 mt-3">
-            <p>Daniel Salazar - Development team - 30079461111111</p>
-            <p>Ervid Molina - Development team - 30079462222111</p>
-            <p>David Villa - Development team - 30079461111</p>
+            <p>Daniel Salazar - FrontEnd Dev team - 30079461111111</p>
+            <p>Ervid Molina - FrontEnd Dev team - 30079462222111</p>
+            <p>David Villa - BackEnd Dev team - 30079461111</p>
+            <p>Cristian Ramirez - Development team - 3007941111</p>
           </div>
         </div>
       </div>

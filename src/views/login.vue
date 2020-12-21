@@ -44,7 +44,3 @@ export default {
   .log{width: 30%;}
 }
 </style>
-
-<script>
-import PageHeaderLogin from "../components/PageHeaderLogin.vue";
-// @ is an alias to /src

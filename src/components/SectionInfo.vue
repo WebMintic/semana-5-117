@@ -33,7 +33,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name:'SectionInfo'
+};
 </script>
 
 <style scoped>

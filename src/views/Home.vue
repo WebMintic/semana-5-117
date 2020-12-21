@@ -1,11 +1,10 @@
 <template>
   <div class="home">
-
-    <section-services class="bg-gray"></section-services>
-    <page-footer></page-footer>
-
     <page-header-home class="mb-3"></page-header-home>
     <section-info></section-info>
+    <section-services class="bg-gray mt-5"></section-services>
+    <section-exitos></section-exitos>
+    <page-footer></page-footer>
 
   </div>
 </template>
@@ -14,9 +13,9 @@
 
 import SectionServices from "../components/SectionServices.vue"
 import PageFooter from "../components/PageFooter.vue"
-
 import PageHeaderHome from "../components/PageHeaderHome.vue";
 import SectionInfo from "../components/SectionInfo.vue";
+import SectionExitos from "../components/SectionExitos.vue"
 // @ is an alias to /src
 
 
@@ -27,6 +26,7 @@ export default {
     PageFooter,
     PageHeaderHome,
     SectionInfo,
+    SectionExitos
   },
 };
 

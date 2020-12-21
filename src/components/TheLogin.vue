@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="mt-5">
   <img src="https://image.freepik.com/foto-gratis/hombres-negocios-asiaticos-mujeres-negocios-que-reunen-intercambiar-ideas-sobre-aplicacion-planificacion-diseno-web-creativo-desarrollar-diseno-plantilla-proyectos-telefonos-moviles-que-trabajan-juntos-oficina-pequena_7861-2682.jpg" alt="">
   <div class="bg-login">
     <h1 class="mb-3">¡Welcome!</h1>
@@ -17,9 +17,6 @@
     </div>
     <button type="submit" class="btn btn-primary" @click.prevent="LoginUser">Submit</button>
   </div>
-  <pre>
-    {{login}}
-  </pre>
 </div>
 
 </template>
