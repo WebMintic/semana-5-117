@@ -1,8 +1,26 @@
 <template>
   <div id="app">
+
+    <div>
+      <section-exitos></section-exitos>
+    </div>
+    <router-view/>
+
     <router-view />
+
   </div>
 </template>
+
+<script>
+
+import SectionExitos from "./components/SectionExitos.vue";
+
+export default {
+  components:{
+    SectionExitos        
+  }
+}
+</script>
 
 <style>
 #app {
