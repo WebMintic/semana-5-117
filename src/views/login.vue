@@ -1,5 +1,17 @@
 <template>
   <div class="login">
-    <h1>This is an about page</h1>
+    <page-header-login></page-header-login>
   </div>
 </template>
+
+<script>
+import PageHeaderLogin from "../components/PageHeaderLogin.vue";
+// @ is an alias to /src
+
+export default {
+  name: "Login",
+  components: {
+    PageHeaderLogin,
+  },
+};
+</script>
