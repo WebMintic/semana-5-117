@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <page-header-home class="mb-3"></page-header-home>
-    <section-info></section-info>
-    <section-services class="bg-gray mt-5"></section-services>
+    <section-info class="my-5"></section-info>
+    <section-services class="bg-gray my-5"></section-services>
     <section-exitos></section-exitos>
     <page-footer></page-footer>
 

@@ -9,7 +9,7 @@
               de su organizacion, si esta interesado en comprar alguna de estas opciones comuniquese a 
               CorreoPrueba@gmail.com 
             </p>
-            <a href="https://github.com/WebMintic/semana-2-117.git"
+            <a href="https://github.com/WebMintic/semana-5-117"
               >Link al repositorio</a
             >
           </div>

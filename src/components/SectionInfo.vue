@@ -1,9 +1,10 @@
 <template>
-  <div class="row no-gutters" id="SectionInfo">
+  <div class="row no-gutters container mx-auto align-items-center my-5" id="SectionInfo">
     <div class="col">
       <img
         src="https://www.cimasproyectos.com/wp-content/uploads/2019/01/CIIMAS-Proyectos-Asesoria-Soluciones-Tecnologicas-768x323.jpg"
         alt=""
+        width="600px"
       />
     </div>
     <div class="col">
