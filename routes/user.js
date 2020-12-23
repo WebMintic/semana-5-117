@@ -5,7 +5,7 @@ const auth = require('../middlewares/auth');
 
 const router = routerx();
 
-router.get('/list', auth.verifyUsuario, UserController.listar);
+router.get('/list', auth.verifyUsuarioAdmin, UserController.listar);
 router.post('/add', UserController.register);
 router.post('/login',  UserController.login);
 router.put('/update',  UserController.update);
