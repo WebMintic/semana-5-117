@@ -37,7 +37,7 @@
       </ol>
 
       <div class="carousel-inner">
-        <div class="carousel-item active bg-light">
+        <div class="carousel-item active ">
           <img
             class="d-block w-100 cortar"
             src="https://image.freepik.com/foto-gratis/cooperacion-analista-grafico-profesional-papel-economia_1418-47.jpg"
@@ -49,7 +49,7 @@
           </div>
         </div>
 
-        <div class="carousel-item bg-light">
+        <div class="carousel-item">
           <img
             class="d-block w-100 cortar"
             src="https://scontent.feoh2-1.fna.fbcdn.net/v/t1.0-9/118412774_2638390419745164_4940421439765734547_o.png?_nc_cat=111&ccb=2&_nc_sid=e3f864&_nc_eui2=AeHKPn-TE_HAB_Abb-vCegH8qHMPkZip31mocw-RmKnfWaBZTl_QtS9aC1evjIIL4HM&_nc_ohc=eiCFPAZ6TIAAX8eR8zH&_nc_ht=scontent.feoh2-1.fna&oh=1781afb0ac77c6847e55d07fd74e32dc&oe=6005555F"
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div class="carousel-item bg-light">
+        <div class="carousel-item">
           <img
             class="d-block w-100 cortar"
             src="https://www.umweltmanager.net/fileadmin/user_upload/Headerbilder/Headerbild_Abfallmanagement.jpg"
@@ -74,7 +74,7 @@
         </div>
 
         <a
-          class="carousel-control-prev bg-light"
+          class="carousel-control-prev "
           href="#carouselExampleCaptions"
           role="button"
           data-slide="prev"
@@ -83,7 +83,7 @@
           <span class="sr-only">Previous</span>
         </a>
         <a
-          class="carousel-control-next bg-light"
+          class="carousel-control-next"
           href=" #carouselExampleCaptions"
           role="button"
           data-slide="next"
@@ -118,7 +118,7 @@ export default {
 <style scoped>
 .cortar {
   overflow: hidden;
-  max-height: 400px;
+  max-height: 510px;
   object-fit: cover;
 }
 h5 {

@@ -1,8 +1,8 @@
 <template>
-    <div class="">
+    <div class="my-5">
         <div class="service-header">
             <h1>{{dataService.nombre}}</h1>
-            <h2>{{dataService.descripcion}}</h2>
+            <h3>{{dataService.descripcion}}</h3>
         </div>
         <div class="container-master">
             <div class="row justify-content-center cards-services ">
